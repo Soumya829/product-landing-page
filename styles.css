@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+ }
+ body{
+   background-color: whitesmoke;
+   font-family: Ariel, sans-serif;
+ }
+ #header{
+   background-color: whitesmoke;
+   position: fixed;
+   top: 0;
+   padding-bottom: 5px;
+   width: 100%;
+ }
+ #header-img{
+   width: 50%;
+   height: auto;
+ }
+ #nav-bar{
+   display: flex;
+   justify-content: flex-end;
+   width: 50%;
+   position: fixed;
+   top: 0;
+   right:0;
+ }
+ .nav-link{
+   text-decoration: none;
+   color: black;
+   padding: 20px 15px 10px;
+ }
+ h1{
+   margin-top: 100px;
+   text-align: center;
+   font-size: 1.5rem;
+ }
+ #email{
+   display: block;
+   width: 200px;
+   height: 20px;
+   margin: 0 auto;
+ }
+ #submit{
+   display: block;
+   margin: 10px auto -15px;
+   font-weight: 900;
+   font-size: 1rem;
+   border-radius: 5px;
+   background-color: rgb(244, 173, 42);
+   border: none;
+   height: 30px;
+ }
+ #how-it-works {
+   width: 100%;
+   height: 400px;           
+   max-width: 500px;       
+   aspect-ratio: 16  9;     
+   margin: 100px auto 50px;  
+ }
+ #video {
+   width: 100%;
+   height: 100%;
+   border-radius: 8px;   
+   display: block;          
+ }
+ #features h1, p{
+ text-align: left;
+ margin-left: 10px;
+ }
+ #features h1{
+ margin-bottom: -15px;
+ }
+ #features p{
+ margin-bottom: -35px;
+ }
+ #pricing{
+   width: 100%;
+   display: flex;
+   justify-content: column;
+   align-items: center;
+   text-align: center;
+ }
+ #pricing .box h2{
+   color: black;
+   background-color: rgb(194, 193, 193);
+   margin-top: 0px;
+   max-width: 250px;
+   height: 40px;
+   padding-top: 20px;
+   font-size: 1rem;
+ } 
+ #pricing .box p{
+   text-align: center;
+ }
+ #pricing .box div{
+   font-weight: bold;
+   font-size: 1.5rem;
+ }
+ #pricing .box{
+   box-sizing: border-box;
+   border: 1px solid black;
+   width: 220px;
+   max-width: 90vw;
+   margin: 5px;
+   height: 350px;
+   border-radius: 5px;
+ }
+ #pricing button{
+   color: black;
+   border: none;
+   background-color: rgb(237, 186, 91);
+   width: 80px;
+   height: 30px;
+   margin-bottom: 10px;
+ }
+ footer{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: center;
+   width: 100%;
+   height: 70px;
+   background-color:  rgb(194, 193, 193);
+   margin: 20px 0 10px 0;
+ }
+ #footer-nav{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 10px 0 0;
+ }
+ .footer-link{
+   color: black;
+   text-decoration: none;
+   font-size: 0.9rem;
+ }
+ footer p{
+   color: rgb(100, 99, 99);;
+   text-decoration: none;
+   font-size: 0.89rem;
+   margin-top: 8px;
+ }
+ 
+ @media (min-width: 740px) {
+   #pricing {
+     flex-direction: row;
+     justify-content: center;
+   }
+ 
+   #how-it-works {
+     max-width: 700px;
+   }
+ }
