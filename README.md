@@ -4,7 +4,7 @@ A responsive product landing page for a fictional handcrafted trombone company. 
 
 Live Demo
 
-[Add your GitHub Pages link here]
+https://soumya829.github.io/product-landing-page/
 
 Technologies Used
 HTML5
