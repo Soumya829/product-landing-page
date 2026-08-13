@@ -24,13 +24,13 @@ Footer navigation
 
 Project Structure
 product-landing-page/
-├── index.html
-├── styles.css
-└── README.md
+  ├── index.html
+  ├── styles.css
+  └── README.md
 
 What I Learned
-Creating a responsive webpage using HTML and CSS
-Using Flexbox for page layouts
-Creating responsive designs with media queries
-Working with forms and embedded content
-Structuring a webpage using semantic HTML
+  Creating a responsive webpage using HTML and CSS
+  Using Flexbox for page layouts
+  Creating responsive designs with media queries
+  Working with forms and embedded content
+  Structuring a webpage using semantic HTML
